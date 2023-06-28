@@ -4,7 +4,7 @@ Welcome to **ctrlfreak**, a lightweight utility tool engineered with the purpose
 
 ## :bulb: Understanding ctrlfreak
 
-**ctrlfreak** operates by monitoring changes to the state of your keyboard's modifier keys, outputting a new line with each state change. The output line format matches the regular expression `^(a|A)(c|C)(s|S)(w|W)$`, where an uppercase letter corresponds to an active modifier, and a lowercase letter signifies an inactive modifier. The letters 'a', 'c', 's', and 'w' represent the Alt, Ctrl, Shift, and Win/Super keys respectively. This efficient mechanism enables **ctrlfreak** to provide real-time updates about your modifier key activity. The current implementation supports environments using an X server.
+**ctrlfreak** operates by monitoring changes to the state of your keyboard's modifier keys, outputting a new line with each state change. The output line format matches the regular expression `^(a|A)(c|C)(s|S)(w|W)$`, where an uppercase letter corresponds to an active modifier, and a lowercase letter signifies an inactive modifier. The letters 'a', 'c', 's', and 'w' represent the Alt, Ctrl, Shift, and Win/Super keys respectively. This efficient mechanism enables **ctrlfreak** to provide real-time updates about your modifier key activity.
 ## :gear: Installation Process
 
 **ctrlfreak** is built using the Rust programming language, so you'll need to have the Rust toolchain installed on your system. Once that's in place, **ctrlfreak** can be installed using the `cargo install` command. If you're unfamiliar with the Rust environment, don't worry! There are ample resources and tutorials available online to help you get started.
